@@ -36,7 +36,10 @@ To get Woogle up and running on your local machine, follow these steps:
 
 3. Host the project on a web server, or use a local server like XAMPP.
 
-4. Access the site in your web browser.
+4. you can upload yourself through login page of admin or Make sure you have the random images with the names that are in the database, and store them in the **/images** folder.  
+.
+5. Access the site in your web browser.
+
 
 ## Usage
 1. **Image Search**:
@@ -63,6 +66,9 @@ If you'd like to contribute to this project, please follow these steps:
 1. Fork the repository on GitHub.
 2. Make your changes and commit them to your fork.
 3. Create a pull request to merge your changes into the main repository.
+
+
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
