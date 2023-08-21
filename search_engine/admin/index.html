@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Woogle Admin</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/admin/admin.css">
+    </head>
+<body>
+<div id="top"></div>
+<div class="loginForm" id="loginForm">
+    <div class="inputs">
+        <p class="showing">Login Page</p>
+        <div class="invalidData" id="invalidData"> Wrong Username or Password !</div>
+    
+        <input type="text" name="usr" id="username" class="inField" placeholder="username">
+        <br/>
+        <input type="password" name="pwd" id="password" class="inField" placeholder="password">
+        <br/>
+        <button type="submit" onclick="login()" class="submitButton">Login</button>
+    </div>
+</div>
+
+<div class="uploadForm" id="uploadForm">
+    <div class="inputs">
+        <p class="showing">Upload Photos</p>
+        <div id="uploadResult" class="outcome"></div>
+        <input type="file" name="photo" id="photo">
+        <br/>
+        <input type="text" name="caption" class="inField" placeholder="caption" id="caption">
+        <br/>
+        <button type="submit" onclick="send_photos()" class="submitButton"> upload</button>
+    </div>
+</div>
+
+<script src="/admin/admin.js">
+</script>
+</body>
+</html>

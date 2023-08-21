@@ -1,0 +1,93 @@
+.uploadForm{
+    display: none;
+    text-align: center;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 4em !important;
+    margin-right: 4em !important;
+
+}
+.loginForm{
+    display: flex;
+    background-color: white;
+    text-align: center;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: 4em !important;
+    margin-right: 4em !important;
+}
+
+.invalidData{
+    display: none;
+    text-align: center;
+    justify-content: center;
+    background-color: #deb0b0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    color: white;
+    border-radius: 12px;
+    width: 75%;
+}
+
+.inField{
+    padding: 8px 20px;
+    border-radius: 9px;
+    margin: 10px;
+    
+}
+
+.inField:hover{
+    font-size: 15px;
+    box-shadow: 0 0 10px rgba(120, 108, 108, 0.5);
+    
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Open Sans',sans-serif;
+}
+#top{
+    padding-top: 50px;
+}
+
+.inputs{
+    display: block !important;
+}
+
+.submitButton{
+    padding: 8px 18px;
+    color: white;
+    background-color: #00BFFF;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.submitButton:hover{
+    background-color: #2f35d8;
+    
+}
+.showing{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(201, 197, 197);
+
+
+}
+
+.outcome{
+    display: none;
+    text-align: center;
+    justify-content: center;
+    background-color: #cdd4d9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+    color: white;
+    border-radius: 12px;
+    width: 100%;
+}
