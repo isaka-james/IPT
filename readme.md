@@ -1,4 +1,5 @@
-# IPT Web Projects Solutions - 2023
+# IPT Web Projects Solutions  - 2023
+<img src="https://komarev.com/ghpvc/?username=ipt-projects&label=ipt&color=0e75b6&style=flat" alt="since 21 Feb,2024" />
 
 Welcome to my repository containing the solutions for the IPT (Information Processing Technology) web projects completed in the year 2023. Here, you will find the implementations, documentation, and resources related to these projects.
 
