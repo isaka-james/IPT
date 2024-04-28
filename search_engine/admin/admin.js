@@ -53,8 +53,6 @@ function check_validity(username,password){
 
 
 function send_photos(){
-    const file = document.getElementById('photo');
-    const caption = document.getElementById('caption');
     console.log('okay we are sending');
     
     var formData =new FormData();
