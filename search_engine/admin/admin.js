@@ -55,13 +55,13 @@ function check_validity(username,password){
 function send_photos(){
     console.log('okay we are sending');
     
-    var formData =new FormData();
+    let formData =new FormData();
 
-    var imageFile = document.getElementById('photo').files[0];
+    let imageFile = document.getElementById('photo').files[0];
     formData.append('photo',imageFile);
 
-    var textData = document.getElementById('caption');
-    var captionText = textData.value;
+    let textData = document.getElementById('caption');
+    let captionText = textData.value;
 
     formData.append('caption',captionText);
 
