@@ -46,7 +46,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     mysqli_close($conn);
     exit;
 
-}else if($_SERVER['REQUEST_METHOD'] == 'GET'){
+}elseif($_SERVER['REQUEST_METHOD'] == 'GET'){
     $username =test_input( $_GET['username']);
     $pwd = test_input($_GET['pwd']);
 
@@ -70,4 +70,3 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 }
 
 
-?>
