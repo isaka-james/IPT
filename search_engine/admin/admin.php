@@ -17,7 +17,7 @@ function test_input($data){
     return $data;
 }
 
-require('../config.php');
+require_once('../config.php');
 
 // accept the user when he only sent GET request (/api.php?search=*********)
 if($_SERVER['REQUEST_METHOD'] == 'POST'){
