@@ -42,7 +42,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET'){
     }
 
 
-    require('config.php');
+    require_once('config.php');
 
     // when the server cannot connect to the database
     if (!$conn) {
